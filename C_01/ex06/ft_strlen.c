@@ -2,7 +2,8 @@
 
 void	output_length(int len)
 {
-	char out;
+	char	out;
+
 	if (len >= 10)
 	{
 		output_length(len / 10);
@@ -13,9 +14,10 @@ void	output_length(int len)
 
 void	ft_strlen(char *str)
 {
-	int length;
+	int	length;
+
 	length = 0;
-	while(str[length] != '\0')
+	while (str[length] != '\0')
 	{
 		length++;
 	}

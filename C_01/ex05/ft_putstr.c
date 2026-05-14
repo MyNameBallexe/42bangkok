@@ -2,7 +2,8 @@
 
 void	ft_putstr(char *str)
 {
-	int length;
+	int	length;
+
 	length = 0;
 	while (str[length] != '\0')
 	{

@@ -1,8 +1,10 @@
 #include <unistd.h>
 
-void ft_ultimate_div_mod(int *a, int *b)
+void	ft_ultimate_div_mod(int *a, int *b)
 {
-	int first, last;
+	int	first;
+	int	last;
+
 	first = *a;
 	last = *b;
 	*a = first / last;
